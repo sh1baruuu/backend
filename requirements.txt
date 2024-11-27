@@ -1,5 +1,5 @@
 asgiref==3.8.1
-Django==3.2.1
+Django==5.0.9
 pytz==2024.2
 setuptools==75.6.0
 sqlparse==0.5.2
