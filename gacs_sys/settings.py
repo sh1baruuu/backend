@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-k9u(4wq5h_tnu1xrq1q01q@gz!(ji65d3niz7)jr$266p1g%)v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', 'backend-knov.onrender.com', 'localhost',]
 
 
 # Application definition
@@ -199,7 +199,7 @@ CKEDITOR_CONFIGS = {
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+    BASE_DIR / "staticfiles",
 ]
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
