@@ -5,3 +5,4 @@ setuptools==75.6.0
 sqlparse==0.5.2
 wheel==0.45.1
 djangorestframework==3.14.0
+django-cors-headers==3.17.0
