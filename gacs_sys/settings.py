@@ -67,7 +67,7 @@ MIDDLEWARE = ['whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
+    'https://frontend-two-sigma-21.vercel.app',
 ]
 
 ROOT_URLCONF = 'gacs_sys.urls'
